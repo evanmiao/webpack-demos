@@ -1,0 +1,11 @@
+{
+  "name": "webpack-demo-watch-and-hmr",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "serve": "webpack server --open"
+  },
+  "license": "ISC"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "webpack-demo-code-minify",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "license": "ISC"
+}
