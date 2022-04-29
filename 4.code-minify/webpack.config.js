@@ -35,7 +35,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Webpack App',
+      title: 'Webpack App', // 自定义模版使用 <%= htmlWebpackPlugin.options.title %> 接收
       filename: 'index.html',
       template: path.join(__dirname, 'src/index.html'), // 可使用 ejs 语法
       /**

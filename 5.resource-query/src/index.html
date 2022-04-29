@@ -6,9 +6,12 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <title>webpack</title>
   </head>
   <body>
     <div id="root"></div>
+    <script>
+      <%= require('../../node_modules/amfe-flexible/index.min.js?raw') %>
+    </script>
   </body>
 </html>
