@@ -1,0 +1,9 @@
+{
+  "name": "webpack-demo-multi-page-application",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "license": "ISC"
+}

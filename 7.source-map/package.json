@@ -1,0 +1,10 @@
+{
+  "name": "webpack-demo-source-map",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "build": "webpack --config webpack.prod.config.js",
+    "serve": "webpack server --config webpack.dev.config.js --open"
+  },
+  "license": "ISC"
+}
